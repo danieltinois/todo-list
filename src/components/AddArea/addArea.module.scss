@@ -1,0 +1,33 @@
+.mainInput {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0px;
+  position: relative;
+  left: -15px;
+  top: -45px;
+}
+
+.input {
+  width: 800px;
+  height: 50px;
+  flex: 1;
+  color: #fff;
+  background: #262626;
+  border: 1px solid #0d0d0d;
+  border-radius: 8px;
+  padding: 0 50px;
+  font-size: 16px;
+}
+
+.input::placeholder {
+  color: #808080;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 35px;
+  top: -2px;
+  user-select: none;
+}
